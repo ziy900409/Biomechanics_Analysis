@@ -9,6 +9,10 @@ This function will return two different smoothing data for user.
 One is calculate by Root Mean Square, another one is calculate by lowpass filter which means linear envelop analysis.
 The user can choose which one is suitable for your experiment design.
 """
+import pandas as pd
+import numpy as np
+from scipy import signal
+from pandas import DataFrame
 
 def EMG_processing(cvs_file_list):
     
