@@ -1,5 +1,8 @@
 # Biomechanics_Analysis
 
+# Electromyography
+EMG_Processing
+using bandpass filter to obtain the target frequency, and than using Root Mean Square or Lowpass Filter to observer muscle activation
 
 
 Reference:
