@@ -1,0 +1,34 @@
+"""
+Created on Sun Apr 24 12:53:32 2022
+Batch process all files under a specific folder
+It can be used to different type of file, please change line 23, 30 as needed
+@author: Hsin Yang, 20220424
+"""
+
+# using a recursive loop to traverse each folder
+# and find the file extension has .csv
+def Read_File(x, subfolder='None'):
+    # if subfolder = True, the function will run with subfolder
+    folder_path = x
+    csv_file_list = []
+    
+    if subfolder:
+        file_list_1 = []
+        for dirPath, dirNames, fileNames in os.walk(x):
+            file_list_1.append(dirPath)
+        for ii in file_list_1[1:]:
+            file_list = os.listdir(ii)
+            for iii in file_list:
+              # change .CSV as needed
+                if os.path.splitext(iii)[1] == ".csv":
+                    file_list_name = ii + '\\' + iii
+                    csv_file_list.append(file_list_name)
+    else:
+        folder_list = os.listdir(x)                
+        for i in folder_list:
+          # change .CSV as needed
+            if os.path.splitext(i)[1] == ".csv":
+                file_list_name = folder_path + "\\" + i
+                csv_file_list.append(i)                
+        
+    return csv_file_list
