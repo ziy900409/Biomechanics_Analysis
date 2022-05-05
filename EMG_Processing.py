@@ -17,6 +17,30 @@ from pandas import DataFrame
 
 def EMG_processing(cvs_file_list):
     
+    '''
+    This function uses the Delsys data format as a template
+    
+    This function will calculate 
+    1. Bandpass filter
+    2. Rectify data
+    3. Lowpass filter or Root mean square
+
+    Parameters
+    ----------
+    cvs_file_list : str
+        data path    
+
+    Returns
+    -------
+    bandpass_filtered_data : ndarray
+        The filtered data.
+    rms_data : ndarray
+        The smoothed data, smoothing method used Root mean square
+    lowpass_filtered_data : ndarray
+        Linear envelop analysis, smoothing method used lowpass filter
+
+    '''
+    
     data = pd.read_csv(cvs_file_list,encoding='UTF-8')
     # to define data time
     data_time = data.iloc[:,0]
