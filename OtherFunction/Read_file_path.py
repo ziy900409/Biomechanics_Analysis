@@ -4,7 +4,7 @@ Batch process all files under a specific folder
 It can be used to different type of file, please change line 23, 30 as needed
 @author: Hsin Yang, 20220424
 """
-
+import os
 # using a recursive loop to traverse each folder
 # and find the file extension has .csv
 def Read_File(x, y, subfolder='None'):
