@@ -1,6 +1,7 @@
 # Biomechanics_Analysis
 
 # Electromyography
+[我的部落格](http://blog.csdn.net/guodongxiaren) 
 [EMG_processing] <https://github.com/ziy900409/Biomechanics_Analysis/blob/main/TeachingFile/EMG_processing.ipynb>
 [EMG_Processing] <https://github.com/ziy900409/Biomechanics_Analysis/blob/main/TeachingFile/EMG_processing.ipynb>
 using bandpass filter to obtain the target frequency, and than using Root Mean Square or Lowpass Filter to observer muscle activation
