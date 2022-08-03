@@ -1,7 +1,6 @@
 """
 Created on Sun Apr 24 12:53:32 2022
 Batch process all files under a specific folder
-It can be used to different type of file, please change line 23, 30 as needed
 @author: Hsin Yang, 20220424
 """
 import os
