@@ -16,11 +16,15 @@ plt.style.use('seaborn-white')
 # 顯示輸入中文
 plt.rcParams['font.sans-serif'] = ['Microsoft JhengHei']
 plt.rcParams['axes.unicode_minus'] = False
+# 設定顏色格式
+# 參考 Qualitative: https://matplotlib.org/stable/tutorials/colors/colormaps.html
 palette = pyplot.get_cmap('Set1')
+# 設定文字格式
 front1 = {'family': 'Times News Roman',
           'weight': 'normal',
           'size': 18
     }
+# 設定圖片文字格式
 parameters = {'axes.labelsize': 24, # x 和 y 標籤的字型大小
           'axes.titlesize': 28, # 設定軸標題的字型大小
           'xtick.labelsize': 18, # 設定x軸刻度標籤的字型大小
@@ -67,7 +71,6 @@ ax.spines['right'].set_visible(False) #去掉右邊框
 ax.spines['top'].set_visible(False) # 去掉上邊框
 plt.title('圖片名稱', fontsize=28) # 設定圖片名稱與大小
 plt.legend(loc='upper right', bbox_to_anchor = (0.9, 1), prop=front1) # 圖例位置
-ax.set_xlabel('x軸單位') # x軸名稱與大小
-ax.set_ylabel('y軸名稱') # y軸名稱與大小
+ax.set_xlabel('x軸單位') # x軸名稱
+ax.set_ylabel('y軸名稱') # y軸名稱
 plt.xlim(0,100) # x軸刻度
-plt.subplots_adjust()
