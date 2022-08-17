@@ -6,7 +6,7 @@
 Using bandpass filter to obtain the target frequency, and than using Root Mean Square or Lowpass Filter to observer muscle activation
 
 ## Another function
-- **[Mean Std Cloud](https://github.com/ziy900409/Biomechanics_Analysis/blob/main/TeachingFile/std_mean.ipynb)
+- **[Mean Std Cloud](https://github.com/ziy900409/Biomechanics_Analysis/blob/main/TeachingFile/std_mean.ipynb)**
 
 Draw mean and standard deviation cloud with python code
 
