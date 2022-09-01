@@ -1,4 +1,5 @@
 # Biomechanics_Analysis
+This repository is for me to practice what I learn from the sport biomechanics course.
 
 ## Electromyography
 - **[EMG_processing](https://github.com/ziy900409/Biomechanics_Analysis/blob/main/TeachingFile/EMG_processing.ipynb)**
@@ -9,6 +10,10 @@ Using bandpass filter to obtain the target frequency, and than using Root Mean S
 - **[Mean Std Cloud](https://github.com/ziy900409/Biomechanics_Analysis/blob/main/TeachingFile/std_mean.ipynb)**
 
 Draw mean and standard deviation cloud with python code
+
+# Online course recommend
+1. [Ross Dynamics Lab](https://www.youtube.com/c/RossDynamicsLab)
+2. [Biomechanics of Movement](https://www.youtube.com/channel/UCDNGy0KKNLQ-ztcL5h2Z6zA)
 
 # Reference:
 1. Zatsiorsky, V. M., & Zaciorskij, V. M. (2002). Kinetics of human motion. Human kinetics.
