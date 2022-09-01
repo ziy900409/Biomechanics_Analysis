@@ -12,10 +12,10 @@ Using bandpass filter to obtain the target frequency, and than using Root Mean S
 Draw mean and standard deviation cloud with python code
 
 # Online course or secourse recommend
-1. [Ross Dynamics Lab](https://www.youtube.com/c/RossDynamicsLab)
-2. [Biomechanics of Movement](https://www.youtube.com/channel/UCDNGy0KKNLQ-ztcL5h2Z6zA)
-3. [DrKwonGolf](https://www.youtube.com/channel/UCwCWfCapZNK_ulayYNTBJxQ)
-4. [3Blue1Brown](https://www.youtube.com/c/3blue1brown)
+- **[Ross Dynamics Lab](https://www.youtube.com/c/RossDynamicsLab)**
+- **[Biomechanics of Movement](https://www.youtube.com/channel/UCDNGy0KKNLQ-ztcL5h2Z6zA)**
+- **[DrKwonGolf](https://www.youtube.com/channel/UCwCWfCapZNK_ulayYNTBJxQ)**
+- **[3Blue1Brown](https://www.youtube.com/c/3blue1brown)**
 
 # Reference:
 1. Zatsiorsky, V. M., & Zaciorskij, V. M. (2002). Kinetics of human motion. Human kinetics.
