@@ -1,6 +1,10 @@
 # Biomechanics_Analysis
 This repository is for me to practice what I learn from the sport biomechanics course.
 
+## Biomechanics theory
+- ** Matrix calculate**
+_ **[Matrix determintant](https://github.com/ziy900409/Biomechanics_Analysis/blob/main/BiomechanicsCourse/determinant.ipynb)** 
+
 ## Electromyography
 - **[EMG_processing](https://github.com/ziy900409/Biomechanics_Analysis/blob/main/TeachingFile/EMG_processing.ipynb)**
 
