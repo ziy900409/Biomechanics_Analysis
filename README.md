@@ -3,7 +3,7 @@ This repository is for me to practice what I learn from the sport biomechanics c
 
 ## Biomechanics theory
 - ** Matrix calculate**
-_ **[Matrix determintant](https://github.com/ziy900409/Biomechanics_Analysis/blob/main/BiomechanicsCourse/determinant.ipynb)** 
+- **[Matrix determintant](https://github.com/ziy900409/Biomechanics_Analysis/blob/main/BiomechanicsCourse/determinant.ipynb)** 
 
 ## Electromyography
 - **[EMG_processing](https://github.com/ziy900409/Biomechanics_Analysis/blob/main/TeachingFile/EMG_processing.ipynb)**
