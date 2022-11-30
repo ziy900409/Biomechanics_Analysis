@@ -15,6 +15,9 @@ Using bandpass filter to obtain the target frequency, and than using Root Mean S
 
 Draw mean and standard deviation cloud with python code
 
+## Mathematics function
+- **[Data smoothing]**
+
 ## Online course or secourse recommend
 - **[Ross Dynamics Lab](https://www.youtube.com/c/RossDynamicsLab)**
 - **[Biomechanics of Movement](https://www.youtube.com/channel/UCDNGy0KKNLQ-ztcL5h2Z6zA)**
