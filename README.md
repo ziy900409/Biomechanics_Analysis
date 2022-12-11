@@ -23,6 +23,8 @@ Draw mean and standard deviation cloud with python code
 - **[Biomechanics of Movement](https://www.youtube.com/channel/UCDNGy0KKNLQ-ztcL5h2Z6zA)**
 - **[DrKwonGolf](https://www.youtube.com/channel/UCwCWfCapZNK_ulayYNTBJxQ)**
 - **[3Blue1Brown](https://www.youtube.com/c/3blue1brown)**
+### python tutorial
+- **[Python Numpy Tutorial from Stanford course CS231n](https://cs231n.github.io/python-numpy-tutorial/)**
 
 ## Reference:
 1. Zatsiorsky, V. M., & Zaciorskij, V. M. (2002). Kinetics of human motion. Human kinetics.
