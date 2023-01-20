@@ -12,6 +12,7 @@ Using bandpass filter to obtain the target frequency, and than using Root Mean S
 
 ## Another function
 - **[Mean Std Cloud](https://github.com/ziy900409/Biomechanics_Analysis/blob/main/TeachingFile/std_mean.ipynb)**
+- **[c3d: A Technical User Guide](https://www.c3d.org/docs/C3D_User_Guide.pdf#search=%22FORCE_PLATFORM%22)**
 
 Draw mean and standard deviation cloud with python code
 
