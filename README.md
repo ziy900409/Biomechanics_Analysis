@@ -21,6 +21,7 @@ Draw mean and standard deviation cloud with python code
 
 ## Online course or resurce recommend
 ### Book:
+#### Biomechanics:
 1. Zatsiorsky, V. M. (2002). Kinetics of human motion. Human kinetics.
 2. Zatsiorsky, V. M. (2005). Kinematics of Human Motion. Human kinetics.
 3. Winter, D. A. (2009). Biomechanics and motor control of human movement. John Wiley & Sons.
@@ -29,16 +30,20 @@ Draw mean and standard deviation cloud with python code
 6. Uchida, T. K., & Delp, S. L. (2021). Biomechanics of movement: the science of sports, robotics, and rehabilitation. MIT Press. 
 
 ### Online course:
+#### Biomechanics:
 - **[Ross Dynamics Lab](https://www.youtube.com/c/RossDynamicsLab)**
 - **[Biomechanics of Movement](https://www.youtube.com/channel/UCDNGy0KKNLQ-ztcL5h2Z6zA)**
 - **[DrKwonGolf](https://www.youtube.com/channel/UCwCWfCapZNK_ulayYNTBJxQ)**
-- **[3Blue1Brown](https://www.youtube.com/c/3blue1brown)**
 
-### Programing tutorial:
+#### Numerical method
+- **[3Blue1Brown](https://www.youtube.com/c/3blue1brown)**
+- **[Python Programming And Numerical Methods: A Guide For Engineers And Scientists¶](https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html)**
+
+#### Programing tutorial:
 - **[Python Numpy Tutorial from Stanford course CS231n](https://cs231n.github.io/python-numpy-tutorial/)**
 - **[cplusplus.com](https://cplusplus.com/doc/tutorial/)**
 
-### Website
+#### Website
 - **[BMClab](https://github.com/BMClab/BMC)**
 
 
