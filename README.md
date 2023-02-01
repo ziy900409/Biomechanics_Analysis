@@ -29,7 +29,7 @@ Draw mean and standard deviation cloud with python code
 5. Challis, J. H. (2021). Experimental Methods in Biomechanics, Springer.
 6. Uchida, T. K., & Delp, S. L. (2021). Biomechanics of movement: the science of sports, robotics, and rehabilitation. MIT Press. 
 
-### Online course:
+### Online resource:
 #### Biomechanics:
 - **[Ross Dynamics Lab](https://www.youtube.com/c/RossDynamicsLab)**
 - **[Biomechanics of Movement](https://www.youtube.com/channel/UCDNGy0KKNLQ-ztcL5h2Z6zA)**
