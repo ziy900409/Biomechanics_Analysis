@@ -37,7 +37,7 @@ Draw mean and standard deviation cloud with python code
 
 #### Numerical method
 - **[3Blue1Brown](https://www.youtube.com/c/3blue1brown)**
-- **[Python Programming And Numerical Methods: A Guide For Engineers And Scientists¶](https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html)**
+- **[Python Programming And Numerical Methods: A Guide For Engineers And Scientists](https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html)**
 
 #### Programing tutorial:
 - **[Python Numpy Tutorial from Stanford course CS231n](https://cs231n.github.io/python-numpy-tutorial/)**
