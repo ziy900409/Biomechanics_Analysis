@@ -74,3 +74,13 @@ plt.legend(loc='upper right', bbox_to_anchor = (0.9, 1), prop=front1) # 圖例�
 ax.set_xlabel('x軸單位') # x軸名稱
 ax.set_ylabel('y軸名稱') # y軸名稱
 plt.xlim(0,100) # x軸刻度
+
+
+
+
+
+
+
+
+
+

@@ -88,4 +88,69 @@ def read_c3d(path):
     # synchronize data (optional)
     return motion_information, motion_data, analog_information, FP_data
 
+
+
+import matplotlib.pyplot as plt
+import numpy as np
+import ezc3d
+
+c = ezc3d.c3d(r"C:\Users\h7058\Downloads\000002_003034_73_207_011_FF_799.c3d")
+
+analog_labels = c["parameters"]["ANALOG"]["LABELS"]["value"]
+analog_units = c["parameters"]["ANALOG"]["UNITS"]["value"]
+print(analog_labels)
+
+analog_points = c["data"]["analogs"]
+print(analog_points.shape)
+
+Fz1_index = [i for i, label in enumerate(analog_labels) if label == "Fz1"][0]
+Fz4_index = [i for i, label in enumerate(analog_labels) if label == "Fz2"][0]
+
+fig, ax = plt.subplots(1, 1, figsize=(8, 3))
+x = np.arange(analog_points.shape[2])
+back_foot_force = analog_points[0, Fz4_index, :]
+lead_foot_force = analog_points[0, Fz1_index, :]
+
+ax.plot(x, back_foot_force, color="tab:blue",label="back foot")
+ax.plot(x, lead_foot_force, color="tab:green", label="lead foot")
+ax.fill_between(
+    x,
+    back_foot_force,
+    lead_foot_force,
+    where=back_foot_force>lead_foot_force,
+    alpha=0.2,
+    color="tab:blue"
+)
+ax.fill_between(
+    x,
+    back_foot_force,
+    lead_foot_force,
+    where=back_foot_force<=lead_foot_force,
+    alpha=0.2,
+    color="tab:green"
+)
+ax.axvline(1620, color="black", linestyle="dashed", alpha=0.35, label="lead foot plant")
+ax.set_xlabel("Analog Frame")
+ax.set_ylabel(f"Fz ({analog_units[Fz4_index]})")
+ax.set_title("Downward force applied during swing")
+ax.spines["top"].set_visible(False)
+ax.spines["right"].set_visible(False)
+ax.spines["bottom"].set_visible(False)
+ax.spines["left"].set_visible(False)
+ax.grid(axis="y")
+ax.legend(bbox_to_anchor=(0, 0.5, 1.3, 0.5));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 motion_information, motion_data, analog_information, FP_data = read_c3d(r'C:/Users/hsin.yh.yang/Downloads/D0005.c3d')
